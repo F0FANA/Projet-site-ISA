@@ -1,0 +1,18 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button{
+    text-decoration: none;
+    color:white;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: Blue;
+}
+
+.button:hover{
+    background-color: black;
+    transition: 0.5s all;
+}
+
