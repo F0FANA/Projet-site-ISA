@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     
-    <link rel="stylesheet" href="bootstrap.css" >
+    <link rel="stylesheet" href="../../bibliothèque/bootstrap-5.1.3/css/bootstrap-grid.css" >
   </head>
   <body>
         <div class="container">

@@ -6,7 +6,7 @@
             <meta name="author" content="NoS1gnal"/>
 
             <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-            <link rel="stylesheet" href="bootstrap.css">
+            <link rel="stylesheet" href="../../bibliothèque/bootstrap-5.1.3/css/bootstrap-grid.css">
             <title>Inscription</title>
         </head>
         <body>
