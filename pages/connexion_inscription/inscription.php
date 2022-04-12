@@ -6,7 +6,8 @@
             <meta name="author" content="NoS1gnal"/>
 
             <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-            <link rel="stylesheet" href="../../bibliothèque/bootstrap-5.1.3/css/bootstrap-grid.css">
+            <link rel="stylesheet" href="../../bibliothèque\bootstrap.css" >
+            <link rel="stylesheet" href="./styles.css" >
             <title>Inscription</title>
         </head>
         <body>
@@ -82,7 +83,7 @@
                     <input type="password" name="password_retype" class="form-control" placeholder="Re-tapez le mot de passe" required="required" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">Inscription</button>
+                    <button type="submit" class="btn btn-primary btn-block couleur">Inscription</button>
                 </div>   
             </form>
             <p class="text-center"><a href="connexion.php">Connexion</a></p>
@@ -108,6 +109,12 @@
             .btn {        
                 font-size: 15px;
                 font-weight: bold;
+            }
+            .couleur{
+                background-color: #ff6502;
+            }
+            .couleur:hover{
+                background-color: #eb5a00;
             }
         </style>
         </body>

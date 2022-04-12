@@ -6,7 +6,8 @@
             <meta name="author" content="NoS1gnal"/>
 
             <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
-            <link rel="stylesheet" href="../../bibliothèque/bootstrap-5.1.3/css/bootstrap-grid.css">
+            <link rel="stylesheet" href="../../bibliothèque\bootstrap.css" >
+            <link rel="stylesheet" href="./styles.css" >
             <title>Connexion</title>
         </head>
         <body>
@@ -55,7 +56,7 @@
                     <input type="password" name="password" class="form-control" placeholder="Mot de passe" required="required" autocomplete="off">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block">Connexion</button>
+                    <button type="submit" class="btn btn-primary btn-block couleur">Connexion</button>
                 </div>   
             </form>
             <p class="text-center"><a href="inscription.php">Inscription</a></p>
@@ -81,6 +82,12 @@
             .btn {        
                 font-size: 15px;
                 font-weight: bold;
+            }
+            .couleur{
+                background-color: #ff6502;
+            }
+            .couleur:hover{
+                background-color: #eb5a00;
             }
         </style>
         </body>
