@@ -25,6 +25,29 @@
     <link rel="stylesheet" href="./styles.css" >
   </head>
   <body>
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top" id="navbar">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item" class="lien">
+                    <a href="#"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#langages" class="nav-link"><img src="../../Images/person.svg" alt="personne">
+                        <strong>Nous Découvrir</strong>
+                    </a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#experience" class="nav-link">
+                        <img src="../../Images/telephone.svg" alt="personne">
+                        <strong>Nous Contacter</strong>
+                    </a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#contact" class="nav-link, button"><strong>Se Connecter</strong></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
         <div class="container">
             <div class="col-md-12">
                 <?php 
@@ -127,6 +150,9 @@
             .couleur:hover{
                 background-color: #eb5a00;
             }
+        h1{
+            margin-top:100px;
+        }
     </style>
   </body>
 </html>

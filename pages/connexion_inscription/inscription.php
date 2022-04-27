@@ -11,6 +11,29 @@
             <title>Inscription</title>
         </head>
         <body>
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top" id="navbar">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item" class="lien">
+                    <a href="#"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#langages" class="nav-link"><img src="../../Images/person.svg" alt="personne">
+                        <strong>Nous Découvrir</strong>
+                    </a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#experience" class="nav-link">
+                        <img src="../../Images/telephone.svg" alt="personne">
+                        <strong>Nous Contacter</strong>
+                    </a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#contact" class="nav-link, button"><strong>Se Connecter</strong></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
         <div class="login-form">
             <?php 
                 if(isset($_GET['reg_err']))
@@ -91,7 +114,7 @@
         <style>
             .login-form {
                 width: 340px;
-                margin: 50px auto;
+                margin: 100px auto;
             }
             .login-form form {
                 margin-bottom: 15px;

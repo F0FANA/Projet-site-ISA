@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../bibliothèque/bootstrap.css">
+    <link rel="stylesheet" href="../../Header/navbar.html">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light fixed-top" id="navbar">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item" class="lien">
+                    <a href="#"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="#" class="nav-link"><img src="../../Images/person.svg" alt="personne">
+                        <strong>Nous Découvrir</strong>
+                    </a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="./contact.html" class="nav-link">
+                        <img src="../../Images/telephone.svg" alt="personne">
+                        <strong>Nous Contacter</strong>
+                    </a>
+                </li>
+                <li class="nav-item" class="lien">
+                    <a href="../pages/connexion_inscription/connexion.php" class="nav-link, button"><strong>Se Connecter</strong></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section id="contact">
+        <div class="form-container">
+            <form id="reused_form">
+              <div>
+                <input id="name" type="text" name="name" placeholder="Nom" required class="validate">
+              </div>
+              <div>
+                <input id="email" type="email" name="email" placeholder="E-mail" required class="validate">
+              </div>
+              <div>
+                <textarea id="message" name="message" placeholder="Ici votre message..." class="validate" ></textarea>
+              </div>
+              <div class="button-co">
+                <button class="button" type="submit">Envoyer</button>
+              </div>
+            </form>
+      
+            <div id="error_message" style="width:100%; height:100%; display:none; ">
+              <h4>Une erreur s'est produite, veuillez rééssayer</h4> 
+            </div>
+            <div id="success_message" style="width:100%; height:100%; display:none; ">
+              <h4>Message envoyé !</h4>
+            </div>
+          </div>
+    </section>
+    
+</body>
+</html>
