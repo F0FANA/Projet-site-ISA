@@ -1,10 +1,7 @@
-nav{
-  margin-top: 10px;
-}
+
 .navbar{
-  background-color: #FAFAFA;
-  opacity: 0.9;
-  height: 42px;
+  background-color: white;
+  height: 60px;
   transition: 0.7s;
 }
 
@@ -24,8 +21,8 @@ nav{
   border: 1px solid #eb5a00;
   background-color: #ff6502;
   border-radius: 3px;
-  width: auto;
-  height: auto;
+  width: 40px;
+  height: 40px;
   color: white;
   padding: 5px;
   text-decoration-line: none;
@@ -196,3 +193,13 @@ nav{
 a{
     text-decoration-line: none;
 }
+
+.espace{
+  margin-top: 10px;
+}
+
+.cart{
+  height: 20px;
+  width: 20px;
+}
+
