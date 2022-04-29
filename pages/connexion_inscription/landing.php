@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav">
                 <li class="nav-item" class="lien">
-                    <a href="#"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
+                    <a href="../acceuil/acceuil.html"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
                 </li>
                 <li class="nav-item" class="lien">
                     <a href="#langages" class="nav-link"><img src="../../Images/person.svg" alt="personne">
@@ -37,13 +37,13 @@
                     </a>
                 </li>
                 <li class="nav-item" class="lien">
-                    <a href="#experience" class="nav-link">
+                    <a href="../contact/contact.html" class="nav-link">
                         <img src="../../Images/telephone.svg" alt="personne">
                         <strong>Nous Contacter</strong>
                     </a>
                 </li>
                 <li class="nav-item" class="lien">
-                    <a href="#contact" class="nav-link, button"><strong>Se Connecter</strong></a>
+                    <a href="./index.php" class="nav-link, button"><strong>Se Connecter</strong></a>
                 </li>
             </ul>
         </div>
