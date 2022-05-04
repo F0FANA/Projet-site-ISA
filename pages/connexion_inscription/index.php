@@ -10,32 +10,42 @@
             <link rel="stylesheet" href="../../navbar/navbar.css">
             <link rel="stylesheet" href="../acceuil/acceuil.css">
             <link rel="stylesheet" href="./styles.css" >
+            <link rel="stylesheet" href="./acceuil.css">
             <title>Connexion</title>
         </head>
         <body>
         <nav class="navbar navbar-expand-sm navbar-light fixed-top" id="navbar">
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item" class="lien">
-                    <a href="../acceuil/acceuil.html"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
-                </li>
-                <li class="nav-item" class="lien">
-                    <a href="#langages" class="nav-link"><img src="../../Images/person.svg" alt="personne">
-                        <strong>Nous Découvrir</strong>
-                    </a>
-                </li>
-                <li class="nav-item" class="lien">
-                    <a href="../contact/contact.html" class="nav-link">
-                        <img src="../../Images/telephone.svg" alt="personne">
-                        <strong>Nous Contacter</strong>
-                    </a>
-                </li>
-                <li class="nav-item" class="lien">
-                    <a href="./index.php" class="nav-link, button"><strong>Se Connecter</strong></a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item" class="lien">
+                        <a href="#"><img class="img-logo"  src="../../Images/adibaba.png" alt="logo"></a>
+                    </li>
+                    <li class="nav-item" class="lien">
+                        <a href="#langages" class="nav-link"><img src="../../Images/person.svg" alt="personne">
+                            <strong>Nous Découvrir</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item" class="lien">
+                        <a href="../contact/contact.html" class="nav-link">
+                            <img src="../../Images/telephone.svg" alt="personne">
+                            <strong>Nous Contacter</strong>
+                        </a>
+                    </li>
+                        
+                    <li class="nav-item espace" class="lien">
+                        <a href="../connexion_inscription/index.php" class="nav-link, button"><strong>Se Connecter</strong></a>
+                    </li>
+                </ul> 
+    
+                    <form class="d-flex">
+                        <button class="btn btn-outline-dark color" type="submit">
+                           <img src="../../Images/shopping-cart.png" alt="shopping-cart" class="cart">
+                                Panier
+                                <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+                    </form>
+            </div>
+        </nav>
         
         <div class="login-form">
              <?php 
