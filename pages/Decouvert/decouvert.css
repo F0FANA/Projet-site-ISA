@@ -1,0 +1,35 @@
+.paragraphe{
+    margin-top: 70px;
+}
+
+.titre{
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #ff6502;
+}
+
+.type{
+ display: flex;
+ justify-content: center;
+ margin: 50px;
+}
+.equipe{
+    margin-top: 50px;
+}
+.equiped{
+margin: 30px;
+}
+
+h3{
+    text-align: center;
+}
+
+.img{
+    width: 100px;
+    height: 150px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
