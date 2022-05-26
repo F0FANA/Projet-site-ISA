@@ -1,0 +1,91 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+ul, nav{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+/* rectangle 1 */
+
+.rectangle1{
+    position: absolute;
+    width: 100%;
+    height: 280px;
+    left: 0px;
+    top: 12px;
+    
+    
+    
+    background: #FF6502;
+    border-radius: 45px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.rectangle2{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 70px;
+    padding: 50px;
+    
+    
+
+    font-family: 'IM FELL Double Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #F3F2F4;
+
+    
+    background: #FF8133;
+    border-radius: 45px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+
+.rectangle3{
+    position: absolute;
+    width: 800px;
+    height: 100px;
+    left: 94px;
+    top: 87px;
+
+    
+}
+
+.renard{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 30px;
+    top: 30px;
+    
+    
+}
